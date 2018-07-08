@@ -3,6 +3,6 @@ function arrays(){
 }// Add your functions and code here
 
 function destructivelyAppendKitten(name){
-  kittens.unshift('Ralph')
+  kittens.shift('Ralph')
   return kittens
 }
